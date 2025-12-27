@@ -1,25 +1,25 @@
 class Nuch < Formula
   desc "A CLI to manage Markdown content and images for Nuxt Content sites."
   homepage "https://github.com/rivethorn/nuch"
-  version "1.3.5"
+  version "1.3.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/rivethorn/nuch/releases/download/v1.3.5/nuch-aarch64-apple-darwin.tar.xz"
-      sha256 "7f692ddf9fa1c8e214a237b40ca851d6895bf061616d491c6439bfc22ca13732"
+      url "https://github.com/rivethorn/nuch/releases/download/v1.3.6/nuch-aarch64-apple-darwin.tar.xz"
+      sha256 "97999f0339421d604fbf7ee16f5f4c4fd798cfebef6ff75079ba1f080dded25e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rivethorn/nuch/releases/download/v1.3.5/nuch-x86_64-apple-darwin.tar.xz"
-      sha256 "4123996c39a402af1462b564912fbe00cfa6e197f62dbbbb4658ae718d80d6ba"
+      url "https://github.com/rivethorn/nuch/releases/download/v1.3.6/nuch-x86_64-apple-darwin.tar.xz"
+      sha256 "a728dc0607103026065efbc57117a7db4431cde6334ac06b84a7e26b36581a93"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/rivethorn/nuch/releases/download/v1.3.5/nuch-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f81ecea206d04dcaf156d6a75333a00b1f795213d59850d602800ee67bb2593f"
+      url "https://github.com/rivethorn/nuch/releases/download/v1.3.6/nuch-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9d117c449c464cb60672d4de11022fb31ed91ff7ab95ef63049eb969f7a1a01a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rivethorn/nuch/releases/download/v1.3.5/nuch-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b03aede1f37da4c65c7385a52f71d529a321c09b969ea670e4441fa91f2491f5"
+      url "https://github.com/rivethorn/nuch/releases/download/v1.3.6/nuch-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0732a9610b5e961304a0b9a4ad6f628f1cca92376e90ba08bbf2b6a391debd01"
     end
   end
   license "MIT"
